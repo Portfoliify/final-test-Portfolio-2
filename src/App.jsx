@@ -18,34 +18,35 @@ const App = () => {
   const [showOverlay , setShowOverlay] = useState(false)
 
   //Content
-  const tagline = 'Available for freelance work';
-const name = 'Mohana krishnan';
-const email = 'sample@gmail.com';
-const heroLine1 = 'independent';
-const heroLine2 = 'full-stack';
-const heroLine3 = 'web developer';
-const gitHub = 'https://github.com';
-const linkedIn = 'https://www.linkedin.com';
-const twitter = 'https://twitter.com';
-const project1 = ['Chat App', 'https://example.com/', null, 'pic1.png'];
-const project2 = ['Photographer Portfolio', 'https://example.com/', null, 'pic2.png'];
-const project3 = ['Image generation platform', 'https://example.com/', null, 'pic3.png'];
-const project4 = ['AI snake', 'https://example.com', null, 'pic4.png'];
-const project5 = ['Personal Portfolio', 'https://example.com/', null, 'pic5.png'];
-const project6 = ['Movie finder', 'https://example.com/', null, 'pic6.png'];
-const aboutLine1= "Hey! I'm Mohan";
-const aboutLine2= 'a nineteen years old';
-const aboutLine3= 'full-stack developer. Currently';
-const aboutLine4= 'based in Chennai, India';
-const aboutPara1= 'As a full-stack developer, I predominantly work with React and Node.js. I utilize Redux to manage the state of my applications, GSAP for animations, and MongoDB as my preferred database solution. This combination allows me to efficiently build and deliver dynamic, responsive, and data-driven web applications.';
-const aboutPara2= 'A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation.';
-const aboutPara3= 'On the web, every second counts, I pay particular attention to the performance of your project by respecting the best practices of every tool I use.';
-const aboutPara4= 'I develop your new website by listening to your needs and desires and by giving you my point of view in order to get the best for your project.';
-const aboutHead2= 'INTERACTION';
-const aboutHead3= 'PERFORMANCE';
-const aboutHead4= 'TEAMWORK';
-const aboutImage= [null, 'pic7.jpg'];
-  //Content
+
+      const tagline = 'Available for freelance work';
+      const name = 'example';
+      const email = 'sample@gmail.com';
+      const heroLine1 = 'independent';
+      const heroLine2 = 'full-stack';
+      const heroLine3 = 'web developer';
+      const gitHub = 'https://github.com';
+      const linkedIn = 'https://www.linkedin.com';
+      const twitter = 'https://twitter.com';
+      const project1 = ['Chat App', 'https://example.com/', null, 'pic1.png'];
+      const project2 = ['Photographer Portfolio', 'https://example.com/', null, 'pic2.png'];
+      const project3 = ['Image generation platform', 'https://example.com/', null, 'pic3.png'];
+      const project4 = ['AI snake', 'https://example.com', null, 'pic4.png'];
+      const project5 = ['Personal Portfolio', 'https://example.com/', null, 'pic5.png'];
+      const project6 = ['Movie finder', 'https://example.com/', null, 'pic6.png'];
+      const aboutLine1= "Hey! i'm example";
+      const aboutLine2= 'a nineteen years old';
+      const aboutLine3= 'ful-stack developer. Currently';
+      const aboutLine4= 'based in Chennai, India';
+      const aboutPara1= 'As a full-stack developer, I predominantly work with React and Node.js. I utilize Redux to manage the state of my applications, GSAP for animations, and MongoDB as my preferred database solution. This combination allows me to efficiently build and deliver dynamic, responsive, and data-driven web applications.';
+      const aboutPara2= 'A pleasant experience for your users goes through the animations and interactions of your project, I spend time to imagine and design them to ensure a smooth and remarkable navigation.';
+      const aboutPara3= 'On the web, every second counts, I pay particular attention to the performance of your project by respecting the best practices of every tool I use.';
+      const aboutPara4= 'I develop your new website by listening to your needs and desires and by giving you my point of view in order to get the best for your project.';
+      const aboutHead2= 'INTERACTION';
+      const aboutHead3= 'PERFORMANCE';
+      const aboutHead4= 'TEAMWORK';
+      const aboutImage= [null, 'pic7.png'];
+//Content
 
   useEffect(() => {
     const tl = gsap.timeline();

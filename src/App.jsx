@@ -20,11 +20,11 @@ const App = () => {
   //Content
 
       const tagline = 'Available for freelance work';
-      const name = 'teena free';
+      const name = 'hey you';
       const email = 'sample@gmail.com';
       const heroLine1 = 'independent';
-      const heroLine2 = 'student';
-      const heroLine3 = 'at srm';
+      const heroLine2 = 'full-stack';
+      const heroLine3 = 'web developer';
       const gitHub = 'https://github.com';
       const linkedIn = 'https://www.linkedin.com';
       const twitter = 'https://twitter.com';
